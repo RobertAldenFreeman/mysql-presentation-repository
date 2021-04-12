@@ -1,3 +1,6 @@
+-- Author: Robert Freeman
+-- Date: 4/14/2021
+
 CREATE SCHEMA IF NOT EXISTS `PresentationDB`; -- Will create the database if it doesn't already exist
 
 USE `PresentationDB`; -- Assures you are using the correct database (you may have multiple)
