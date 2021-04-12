@@ -1,3 +1,11 @@
+-- Author: Robert Freeman
+-- Date: 4/12/2021
+
+-- Copied over from MySQL Workbench Forward Engineering
+-- Top 3 lines removed, and bottom three lines removed from 
+-- forward engineering for simplicity. 
+-- Those lines can cause issues sometimes.
+
 -- MySQL Workbench Forward Engineering
 
 -- -----------------------------------------------------
@@ -16,4 +24,5 @@ CREATE TABLE IF NOT EXISTS `PresentationDB`.`SFSU_Customer` (
   PRIMARY KEY (`SFSU_Customer_id`))
 ENGINE = InnoDB;
 
-SELECT * FROM `PresentationDB`.`SFSU_Customer`;
+SELECT * FROM `PresentationDB`.`SFSU_Customer`; -- Used to select the `SFSU_Customer` table from `PresentationDB`.
+                                                -- All columns will now be ready to use
