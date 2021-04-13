@@ -8,3 +8,6 @@ The query from the presentation created using the MySQL Workbench process.
 
 # oneAtATime.sql
 The query from creating tables one at a time.
+
+# Slides
+Available in both .ppt and .pdf formats
